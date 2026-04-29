@@ -2,4 +2,4 @@
 // export { buildSheetsCard } from "./sheet-triggers";
 
 // // Tests
-// export * from "./tests/_index";
+// export * from "./gas-tests";
