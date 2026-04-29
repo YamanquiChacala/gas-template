@@ -10,6 +10,7 @@ Notes/
 .nvmrc
 biome.json
 build.mjs
+init.sh
 jest.config.js
 LICENSE
 package-lock.json
