@@ -19,6 +19,10 @@
     "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
     "Cargo.toml": "Cargo.lock"
   },
+  "workbench.editor.customLabels.enabled": true,
+  "workbench.editor.customLabels.patterns": {
+    "**/index.ts": "${dirname}"
+  },
   "editor.tokenColorCustomizations": {
     // Make strings and numbers pop-out to detect "magic" constants.
     "textMateRules": [
