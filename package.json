@@ -17,7 +17,7 @@
   },
   "scripts": {
     "test": "jest --passWithNoTests",
-    "test:coverage": "jest --passWithNoTests --coverage",
+    "test:coverage": "jest --passWithNoTests --coverage && cat dark-coverage.css >> coverage/base.css",
     "build": "npm run test && node build.mjs",
     "push": "npm run build && clasp push",
     "lint": "biome check .",
