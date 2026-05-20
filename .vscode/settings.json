@@ -8,6 +8,8 @@
   },
   "html.validate.styles": false,
   "js/ts.tsserver.experimental.enableProjectDiagnostics": true,
+  "js/ts.tsserver.maxMemory": 8192,
+  "files.eol": "\n",
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "index.ts": "*.ts",
@@ -24,7 +26,7 @@
     "**/index.ts": "${dirname}"
   },
   "workbench.editorAssociations": {
-    "*.md": "vscode.markdown.preview.editor"
+    // "*.md": "vscode.markdown.preview.editor"
   },
   "editor.tokenColorCustomizations": {
     // Make strings and numbers pop-out to detect "magic" constants.
